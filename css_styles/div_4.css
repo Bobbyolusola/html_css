@@ -1,0 +1,266 @@
+.mainContainer{;
+    background-color: white;
+    border: 2px solid black;
+    width: 699.9px;
+}
+.header{
+    height: 120px;
+    background-color: antiquewhite;
+}
+.miniHeader{
+    height: 80px;
+    width: 480px;
+    background-color: burlywood;
+    margin: 0 0 0 100px;
+}
+.subMiniHeader{
+    height: 40px;
+    width: 240px;
+    background-color: beige ;
+    margin: 0 0 0 110px;
+    text-align: center;
+}
+.navBar{
+    height: 100px;
+    width: 700px;
+    background-color: yellow;
+}
+.navBarItems{
+    height: inherit;
+    width: 140px;
+    background-color: blue;
+    float: right;
+    text-align: center;
+}
+.one{
+   background-color: red;
+}
+.two{
+    background-color: yellow;
+}
+.three{
+    background-color: lightseagreen;
+}
+.four{
+    background-color: blueviolet;
+}
+
+.main{
+    height: 350px;
+}
+.mainItems{
+    height: inherit;
+    width: 233.3px;
+    background-color: burlywood;
+    float: right;
+}
+.first{
+    background-color: cornflowerblue;
+}
+.second{
+    background-color: beige;
+}
+.third{
+    background-color: green;
+}
+.text{
+    height: 70px;
+    width: 120px;
+    background-color: lightgray;
+    margin-left: 50px;
+    text-align: center;
+    padding-top: 25px;
+}
+.text3{
+    height: 70px;
+    width: 100px;
+    background-color: brown;
+    margin-left: 60px;
+    text-align: center;
+}
+
+.subText{
+    height: 166px;
+    width: 100px;
+    background-color: #bda9ae;
+    margin-left: 60px;
+    text-align: center;
+}
+.innerText{
+    height: 167px;
+    width: 50px;
+    float: right;
+}
+.f4{
+    background-color: beige;
+}
+.f5{
+    background-color: cornflowerblue;
+}
+
+.mainA{
+    height: 30px;
+    width: 233px;
+    background-color: bisque;
+    text-align: center;
+}
+.mainB{
+    height: 320px;
+    width: 233px;
+    background-color: red;
+    text-align: center;
+}
+.mainBbox{
+    height: inherit;
+    width: 77.6px;
+    text-align: center;
+    float: left;
+}
+.B{
+    background-color: brown;
+}
+.C1{
+    background-color: #bda9ae;
+}
+.D{
+    background-color: lightpink;
+}
+.subMainBox{
+    background-color: brown;
+    height: 262px;
+    width: 77.6px;
+    margin-top: 40px;
+}
+.mainBoxB1{
+    background-color: goldenrod;
+    height: inherit;
+    width: 38.7px;
+    float: left;
+}
+.B1{
+   background-color: olive;
+}
+.B2{
+    background-color: tan;
+    margin-top: 150px;
+    height: 112px;
+}
+.c2{
+    height: 80.3px;
+    width: 77.6px;
+    background-color: khaki;
+    margin-top: 40px;
+}
+.c3{
+    height: 80.3px;
+    width: 77.6px;
+    background-color: #bda9ae;
+}
+.c4Main{
+    background-color: blueviolet;
+    height: .3px;
+    width: 77.6px;
+}
+.subC4Main{
+    background-color: lightsalmon;
+    height: 102px;
+    width: 38.8px;
+    float: left;
+}
+.C4{
+    background-color: cornflowerblue;
+}
+.C5{
+    background-color: olive;
+}
+.D1{
+    background-color: steelblue;
+    height: 80.3px;
+    width: 77.6px;
+    margin-top: 40px;
+}
+.D2{
+    background-color: sandybrown;
+    height: 181px;
+    width: 77.6px;
+}
+
+
+.box{
+    width: 77.77px;
+    height: 30px;
+    background-color: darkseagreen;
+    text-align: center;
+}
+.boxI {
+    float: left;
+    background-color: darkseagreen;
+}
+.boxII{
+    float: left;
+    background-color: mediumpurple;*/
+}
+.boxIII{
+    float: left;
+    background-color: lightcoral;
+}
+.boxIm{
+    height: 60px;
+    width: 233px;
+    background-color: antiquewhite;
+}
+.subBoxIm {
+    height: 20px;
+    width: 70px;
+    margin: 8px 0 0 80px;
+    display: block;
+    background-color: red;
+    text-align: center;
+}
+.boxVI{
+    background-color: lightgray;
+    height: 60px;
+    width: 233px;
+    text-align: center;
+}
+.boxVII{
+    height: 212px;
+    width: 60px;
+    text-align: center;
+}
+.SubBoxVII{
+    float: left;
+    background-color: red;
+}
+.SubBoxVIII{
+    height: 60px;
+    width: 173px;
+    text-align: center;
+    background-color: lightslategrey;
+    float: left;
+}
+.boxIX{
+    height: 70px;
+    width: 86.5px;
+    text-align: center;
+    background-color: blue;
+}
+.subBoxIX{
+    float: left;
+    background-color: rebeccapurple;
+}
+.subBoxX{
+    float: left;
+    background-color: antiquewhite;
+}
+.boxXI{
+    height: 100px;
+    width: 234px;
+    margin-top: 112px;
+    background-color: plum;
+}
+.footer{
+    height: 70px;
+    background-color: grey;
+    text-align: center;
+}

@@ -1,0 +1,592 @@
+*{
+    box-sizing: border-box;
+}
+
+.header{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: "SF Pro";
+    line-height: 25px;
+    margin: 0 70px;
+}
+
+.team{
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    font-family: "SF Pro";
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.lessons{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: "SF Pro";
+    line-height: 25px;
+    margin: 0 70px;
+}
+
+a:hover {
+     color: dodgerblue;
+}
+
+.active{
+    color: dodgerblue;
+}
+
+.mainContainer{
+    height: 550px;
+    width: 100%;
+    background-color: #EAEBED;
+    margin-top: 10px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.teamMainContainer{
+    height: 550px;
+    width: 100%;
+    background-color: #EAEBED;
+    margin-top: 10px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aside {
+    height: 315px;
+    width: 65px;
+    background-color: white;
+    margin-left: 60px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction:column;
+}
+
+.folder{
+    position: absolute;
+    height: 33px;
+    width: 33px;
+    margin-top: 20px;
+    margin-left: 15px;
+    background: url("../images/folder.svg") no-repeat;
+    transition: 1s ease;
+    text-decoration: none;
+}
+
+.folder:hover{
+    width: 102px;
+    line-height: 33px;
+    background: url("../images/folder_2.png") no-repeat;
+    background-color: dodgerblue;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.folder::after{
+    content: "Projects";
+    font-size: large;
+    line-height: 33px;
+    color: white;
+    padding-left: 40px;
+    transition: opacity 1s ease-out;
+    opacity: 0;
+}
+
+.folder:hover::after{
+    content: "Projects";
+    font-size: large;
+    color: white;
+    padding-left: 40px;
+    opacity: 1;
+}
+
+.monitor{
+    position: absolute;
+    height: 33px;
+    width: 33px;
+    margin-left: 15px;
+    margin-top: 80px;
+    background: url("../images/monitor.svg") no-repeat;
+    transition: 1s ease-out;
+    text-decoration: none;
+}
+
+.monitor:hover{
+    width: 105px;
+    line-height: 33px;
+    background: url("../images/monitor_2.png") no-repeat;
+    background-color: dodgerblue;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.monitor::after{
+    content: "Monitor";
+    font-size: large;
+    line-height: 33px;
+    color: white;
+    padding-left: 40px;
+    transition: opacity 0.5s ease-out;
+    opacity: 0;
+}
+
+.monitor:hover::after{
+    content: "Monitor";
+    font-size: large;
+    color: white;
+    padding-left: 40px;
+    opacity: 1;
+}
+
+.users{
+    position: absolute;
+    height: 33px;
+    width: 33px;
+    margin-left: 15px;
+    margin-top: 140px;
+    background: url("../images/users-alt.svg") no-repeat;
+    transition: 1s ease-out;
+    text-decoration: none;
+}
+
+.users:hover{
+    width: 85px;
+    line-height: 33px;
+    background: url("../images/users-alt_2.png") no-repeat;
+    background-color: dodgerblue;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.users::after{
+    content: "Users";
+    font-size: large;
+    line-height: 33px;
+    color: white;
+    padding-left: 40px;
+    transition: opacity 0.5s ease-out;
+    opacity: 0;
+}
+
+.users:hover::after{
+    content: "Users";
+    font-size: large;
+    color: white;
+    padding-left: 40px;
+    opacity: 1;
+}
+.cloud{
+    position: absolute;
+    height: 33px;
+    width: 33px;
+    margin-left: 15px;
+    margin-top: 200px;
+    background: url("../images/cloud-share.svg") no-repeat;
+    transition: 1s ease-out;
+    text-decoration: none;
+}
+.cloud:hover{
+    width: 90px;
+    line-height: 33px;
+    background: url("../images/cloud-share_2.png") no-repeat;
+    background-color: dodgerblue;
+    border-radius: 10px;
+    z-index: 1;
+}
+.cloud::after{
+    content: "Cloud";
+    font-size: large;
+    line-height: 33px;
+    color: white;
+    padding-left: 40px;
+    transition: opacity 0.5s ease-out;
+    opacity: 0;
+}
+
+.cloud:hover::after{
+    content: "Cloud";
+    font-size: large;
+    color: white;
+    padding-left: 40px;
+    opacity: 1;
+}
+
+.cog{
+    position: absolute;
+    height: 33px;
+    width: 33px;
+    margin-left: 15px;
+    margin-top: 260px;
+    background: url("../images/cog.svg") no-repeat;
+    transition: 1s ease-out;
+    text-decoration: none;
+}
+
+.cog:hover{
+    width: 80px;
+    line-height: 33px;
+    background: url("../images/cog_2.png") no-repeat;
+    background-color: dodgerblue;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.cog::after{
+    content: "Cog";
+    font-size: large;
+    line-height: 33px;
+    color: white;
+    padding-left: 40px;
+    transition: opacity 0.5s ease-out;
+    opacity: 0;
+}
+
+.cog:hover::after{
+    content: "Cog";
+    font-size: large;
+    color: white;
+    padding-left: 40px;
+    opacity: 1;
+}
+
+.section{
+    width: calc(100% - 50px);
+    /*height: 600px;*/
+    margin: 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sectionOne{
+    /*height: 150px;*/
+    width: 95%;
+    margin: 5px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.project{
+    width: 47%;
+    background-color: white;
+    height: 120px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    justify-content: center;
+}
+
+article{
+    color: rgba(40,40,40,0.66);
+    margin-top: 10px;
+    line-height: 27px;
+}
+
+header2{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.company{
+    width: 47%;
+    background-color: white;
+    height: 120px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    justify-content: center;
+}
+
+.sectionTwo{
+    /*height: calc(100% - 190px);*/
+    width: 95%;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.subTwoOne{
+    height: 400px;
+    width: calc(100% - 500px);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.mainDes{
+    width: 100%;
+    height: 170px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    justify-content: center;
+}
+
+.mainTeam{
+    width: 100%;
+    height: 170px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 15px;
+}
+
+.subTwoTwo {
+    height: 362px;
+    width: 430px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+}
+
+.capture1 {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.article2{
+    width: 400px;
+    height: 400px;
+    margin-top: 10px;
+}
+
+.teamUsers {
+    height: 550px;
+    width: 100%;
+    background-color: #EAEBED;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subTeamUsers{
+    height: 480px;
+    width: 70%;
+    /*background-color: yellow;*/
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.User1{
+    position: relative;
+    width: 25%;
+    height: 210px;
+    min-width: 200px;
+    max-width: 220px;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.User1:hover{
+    background-color: dodgerblue;
+}
+
+.User1:hover .trashContainer{
+    display: flex;
+}
+
+.avatar{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+
+.name{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.LogoCompany{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #C5C5C5;
+    margin-bottom: 30px;
+}
+
+.date{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #C5C5C5;
+    margin-bottom: 10px;
+}
+
+.User1:hover .name{
+    color: white;
+}
+
+.User1:hover .LogoCompany{
+     color: white;
+}
+
+.User1:hover .date{
+    color: white;
+}
+
+.trashContainer{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -17px;
+    right: -17px;
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 7px;
+}
+
+.trash{
+    width: 20px;
+    height: 30px;
+    fill: dodgerblue;
+}
+
+/*@media (min-width: 600px) and (max-width: 1000px)  ---incase of a minimum width*/
+@media only screen and (max-width: 1000px){
+    .mainContainer{
+      height: 1200px;
+      width: 100%;
+      background-color: #EAEBED;
+      margin-top: 10px;
+      border-radius: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+    .aside{
+      width: 350px;
+      height: 70px;
+      display: flex;
+      margin-left: 0px;
+  }
+    .folder{
+        margin-left: 5px;
+
+    }
+
+    .monitor{
+      margin-left: 82px;
+      margin-top: 20px;
+
+  }
+    .users{
+        margin-left: 164px;
+        margin-top: 20px;
+    }
+
+    .cog{
+        margin-left: 245px;
+        margin-top: 20px;
+    }
+    .cloud{
+        margin-left: 315px;
+        margin-top: 20px;
+    }
+    .sectionOne{
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .project{
+        width: 350px;
+        margin: 15px 0;
+    }
+    .company{
+        width: 350px;
+    }
+    .sectionTwo{
+        /*height: calc(100% - 190px);*/
+        width: 95%;
+        margin: 15px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .mainDes{
+        width: 350px;
+    }
+    .mainTeam{
+        width: 350px;
+    }
+    .subTwoTwo {
+        width: 350px;
+    }
+    header2{
+        font-size: 16px;
+    }
+    article{
+        font-size: 14px;
+    }
+
+    .teamMainContainer{
+        height: 2100px;
+        width: 100%;
+        background-color: #EAEBED;
+        margin-top: 10px;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .subTeamUsers{
+        margin-bottom: 1500px;
+        margin-left: 50px;
+    }
+
+}
+.d{
+    display: flex;
+    flex-direction: ;
+    justify-content: ;
+}

@@ -1,0 +1,77 @@
+/*p{*/
+/*    color: green;*/
+/*}*/
+.par1{
+    color: green;
+}
+.par2{
+    color: red;
+}
+.par3{
+    color: blue;
+}
+#id{
+    color: orange;
+
+}
+
+/*p, .par1, .par2, .par3, #id are called selectors*/
+
+.work1{
+    color: white;
+    background-color: red;
+}
+body{
+    background-color: #bda9ae;
+}
+
+.work2{
+    color: red;
+    background-color: white;
+    font-size: 50px;
+    text-align: center;
+}
+.work3{
+    color: white;
+    background-color: lightseagreen;
+    text-align: right;
+}
+
+/*css.html*/
+body {
+    background-color: red;
+}
+
+.mainContainerStyle{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+.blueBorder{
+    border: 5px solid blue;
+}
+
+.greenBorder{
+    border: 3px solid green;
+}
+.yellowBorder{
+    border: 5px solid yellow;
+}
+
+.outerDiv{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+.outerDiv .mainContainerStyle{
+    background-color: green;
+}
+body .outerDiv .mainContainerStyle{
+    background-color: yellow;
+}
+
+div{
+    color: yellow;
+    background-color: blue;
+}

@@ -1,0 +1,48 @@
+.sprintContainer{
+    height: 200px;
+    width: 100%;
+    background-color: #bda9ae;
+}
+.spriteItem{
+    list-style: none;
+    display: inline-block;
+}
+.menu__link{
+    display:block ;
+    height: 114px;
+    width: 124px;
+    background: url("sprite.png") no-repeat;
+    transition: 1s;
+}
+.twitter{
+    background-position: -125px 0;
+}
+.google{
+    background-position: -245px 0;
+}
+.linkedin{
+    background-position: -370px 0;
+}
+.facebook:hover{
+    background-position: 0 -125px;
+}
+.twitter:hover{
+    background-position: -125px -125px;
+}
+.google:hover{
+    background-position: -245px -125px;
+}
+.linkedin:hover{
+    background-position: -370px -125px;
+}
+.capture{
+    height: 100%;
+    width: 90%;
+    background: url("../images/Marvel_Studios_logo.jpg");
+    background-size: 80% 80%;
+    transition: 1s;
+}
+.capture:hover{
+    background: url("../images/mobile.jpeg");
+    background-size: 50% 80%;
+}

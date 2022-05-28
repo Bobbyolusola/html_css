@@ -1,0 +1,47 @@
+.container{
+    width: 90%;
+    margin: 0 auto;
+    background-color: bisque;
+    height: 150px;
+}
+/*.box {*/
+/*    height: 100px;*/
+/*    width: 100px;*/
+/*    background-color: red;*/
+/*    position: absolute;*/
+/*    left: 50px;*/
+/*    right: ;*/
+/*    top: 100px;*/
+/*    bottom: ;*/
+/*    z-index: -10;*/
+/*}*/
+
+table, tr, th, td{
+    border: 1px solid black;
+}
+th{
+    padding: 6px;
+}
+
+.flexBox{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    /*align-items: stretch;*/
+    justify-content: space-between;
+    height: 500px;
+    background-color: yellow;
+    flex-wrap: nowrap;
+}
+.item{
+    width: 50px;
+    height: 100px
+    /*min-height: 100px;*/
+    /*max-height: 50px;*/
+}
+.color1{
+    background-color: blue;
+}
+.color2{
+    background-color: green;
+}

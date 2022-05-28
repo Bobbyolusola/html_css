@@ -1,0 +1,155 @@
+/*.mainContainer{*/
+/*    height: 500px;*/
+/*    width: 770px;*/
+/*    background-color: #bda9ae;*/
+/*}*/
+/*.box{*/
+/*    height: inherit;*/
+/*    width: 110px;*/
+/*    background-color: red;*/
+/*    font-family: "Arial Black";*/
+/*    color: white;*/
+/*    font-size: 50px;*/
+/*    font-style: italic;*/
+/*    text-align: center;*/
+/*    padding-top: 225px;*/
+/*    height: 275px;*/
+/*}*/
+/*.boxA{*/
+/*    float: left;*/
+/*    background: linear-gradient(to bottom, red, darkred);*/
+/*}*/
+/*.boxB{*/
+/*    float: left;*/
+/*    background: linear-gradient(to top, mediumpurple, palevioletred);*/
+/*}*/
+/*.boxC{*/
+/*    float: left;*/
+/*    background: linear-gradient(to bottom, forestgreen, orange);*/
+/*}*/
+/*.boxD{*/
+/*    float: left;*/
+/*    background: linear-gradient(to bottom, brown, forestgreen);*/
+/*}*/
+/*.boxE{*/
+/*    float: left;*/
+/*    background: linear-gradient(to bottom, palevioletred, lightslategray);*/
+/*}*/
+/*.boxF{*/
+/*    float: left;*/
+/*    background: linear-gradient(to top, darkred, red);*/
+/*}*/
+/*.boxG{*/
+/*    float: left;*/
+/*    background: linear-gradient(to bottom, saddlebrown, rosybrown);*/
+/*}*/
+
+@import url("fonts.css");
+.header{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: firebrick;
+    height: 50px;
+    width: inherit;
+    background-color: #eeeeee;
+}
+.Main{
+    height: 600px;
+    width: 610px;
+    margin-top: 50px;
+    margin-left: 65px;
+}
+.subMain{
+    float: left;
+}
+.subMainI{
+    width: 577px;
+    float: left;
+}
+.marvel{
+    height: 325px;
+    width: 577px;
+    margin-left: 25px;
+    object-fit: contain;
+    border: 5px solid wheat;
+}
+.mainMarvel{
+    height: 79px;
+    width: 116.5px;
+    background-color: red;
+    margin-left: 26px;
+    margin-top: 40px;
+    border: 5px solid navajowhite;
+}
+.subMainMarvel1{
+    float: left;
+}
+.subMainMarvel2{
+    float: left;
+}
+.subMainMarvel3{
+    float: left;
+}
+.subMainMarvel4{
+    float: left;
+}
+.about{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    text-align: left;
+    height: 40px;
+    width: inherit;
+    margin-top: 20px;
+    color: rgba(5,6,7,0.70);
+}
+.mText{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: rgba(40,40,40,0.89);
+    word-spacing: 7px;
+    line-height: 25px;
+    text-justify: auto;
+}
+.heading{
+    width: inherit;
+    height: 53px;
+    background-color: #eeeeee;
+    box-shadow: 0px 5px 12px -1px  #000000;  /* https://html-css-js.com/css/generator/box-shadow/*/
+}
+
+
+}
+.mainMenu{
+    height: 33px;
+    width: 150px;
+    font-size: x-large;
+    background-color: #eeeeee;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 18px;
+    padding-left: 20px;
+}
+.mainMenu1{
+    padding-left: 8px;
+    padding-top: 15px;
+    text-align: center;
+    float: left;
+}
+.mainMenu2{
+    padding-right: 50px;
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    float: right;
+}
+i:hover{
+    /*font-size: 50px;*/
+    cursor: pointer;
+    background-color: lightgray;
+    height: 33px;
+
+}
+

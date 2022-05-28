@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mainContainer{
+    background-color: beige;
+
+}
+
+.container{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    margin: 50px;
+    overflow: scroll;
+    /*margin: 100px 0 0 100px;*/
+    /*margin-top: 0;*/
+    /*margin-left: 50px;*/
+    /*margin-right: 200px;*/
+    /*margin-bottom: 30px;*/
+    border: 5px solid red;
+    /*border-bottom: 5px solid red;*/
+    /*border-top: 10px dashed blue;*/
+    /*border-left: 10px solid blue;*/
+    /*border-color: red;*/
+    /*border-width: 5px;*/
+    /*border-style: dashed;*/
+    /*padding: 50px;*/
+    /*padding-top: 50px;*/
+    /*padding-left: 50px;*/
+    /*padding-right: 50px;*/
+    /*padding-bottom: 50px;*/
+    /*box-sizing: border-box;*/
+    /*overflow: hidden;*/
+    /*border-radius: 20%;*/
+    outline: 5px double red;
+    /*display: inline-block;*/
+    /*display: inline works like a span and only gives space for the word content*/
+}
+.borderSolid{
+    border: 5px solid red;
+    float: right;
+}
+.borderDashed{
+    border: 5px dashed red;
+}
+.borderDouble{
+    border: 5px double red;
+}

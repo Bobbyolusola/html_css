@@ -1,0 +1,24 @@
+.primary {
+  width: 100%;
+  background-color: red;
+  height: 500px;
+}
+
+.secondary {
+  width: 100%;
+  background-color: green;
+  height: 150px;
+  color: white;
+}
+
+body .container .buttonBlack {
+  color: black;
+  font-size: 30px;
+}
+
+.container .row div {
+  background-color: yellow;
+  border: 1px solid red;
+}
+
+/*# sourceMappingURL=index5.css.map */

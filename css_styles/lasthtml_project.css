@@ -1,0 +1,679 @@
+.container{
+    position: relative;
+    /*background-color: #EAEBED;*/
+    height: 3100px;
+    width: 1440px;
+    text-align: center;
+}
+.subContainer{
+    position: absolute;
+    width: 1312px;
+    top: 8px;
+    display: flex;
+    color: white;
+}
+.topLeft{
+    margin-top: 79px;
+    margin-left: 135px;
+    font: 28px Roboto bold;
+    color: white;
+}
+.TopRight1{
+    margin-top: 79px;
+    margin-left: 340px;
+    font: 20px Roboto;
+    font-weight: bold;
+    color: white;
+}
+
+.TopRight2{
+    margin-top: 79px;
+    margin-left: 57px;
+    font: 20px Roboto "Roboto Light";
+    color: white;
+}
+.TopRight3{
+    margin-top: 79px;
+    margin-left: 57px;
+    font: 20px Roboto "Roboto Light";
+    color: white;
+}
+.TopRight4{
+    margin-top: 79px;
+    margin-left: 57px;
+    font: 20px Roboto "Roboto Light";
+    color: white;
+}
+.TopRight5{
+     margin-top: 79px;
+     margin-left: 57px;
+     font: 20px Roboto "Roboto Light";
+    color: white;
+ }
+
+header{
+    position: absolute;
+    color: white;
+    margin-top: 252px;
+    margin-left: 135px;
+    font-size: 58px;
+    font-family: Roboto;
+    font-weight: lighter;
+}
+.subHeader{
+    margin-top: 360px;
+    margin-left: -930px;
+
+}
+.subHeader2{
+    margin-top: 468px;
+    margin-left: -215px;
+    text-decoration: underline;
+}
+
+.secondContainer{
+    height: 500px;
+    width: 1296px;
+    background-color: #FFFFFF;
+}
+
+.header3{
+    margin-top: 83px;
+    margin-left: -940px;
+    color: #333333;
+    font-weight: bold;
+    font-family: Roboto;
+    font-size: 28px;
+}
+.parag{
+    margin-top: 73px;
+    margin-left: 140px;
+    height: 300px;
+    width: 80%;
+    /*background-color: #bda9ae;*/
+    text-align: left;
+    letter-spacing: 0;
+    line-height: 30px;
+    color: #444444;
+    font-weight: lighter;
+    font-family: Roboto;
+    font-size: 16px;
+}
+
+.thirdContainer{
+    height: 683px;
+    width: 1296px;
+    background-color: #F2F5FF;
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+}
+.skills{
+    height: 500px;
+    width: 450px;
+    margin-top: 73px;
+    margin-left: 140px;
+    color: #333333;
+    font-weight: bold;
+    font-family: Roboto;
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    /*background-color: yellow;*/
+}
+.innerimg{
+    margin-top: 70px;
+    height: 350px;
+    width: 350px;
+}
+
+.profile{
+    height: 500px;
+    width: 53%;
+    /*background-color: #bda9ae;*/
+    margin-top: 175px;
+    margin-left: 70px;
+    color: #333333;
+    font-weight: bold;
+    font-family: Roboto;
+    font-size: 28px;
+    display: flex;
+}
+.profile2{
+    height: 500px;
+    width: 53%;
+    /*background-color: #bda9ae;*/
+    margin-top: 175px;
+    margin-left: 70px;
+    color: #333333;
+    font-weight: bold;
+    font-family: Roboto;
+    font-size: 28px;
+    display: flex;
+}
+
+.subProfile{
+    margin-top: 50px;
+    height: 500px;
+    width: 200px;
+    /*background-color: yellow;*/
+}
+
+.title{
+    height: 500px;
+    width: 200px;
+    /*background-color: red;*/
+}
+.lists{
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: Roboto;
+    font-size: 18px;
+}
+.tools{
+    margin-top: 10px;
+    font-weight: lighter;
+    font-family: Roboto;
+    font-size: 20px;
+}
+
+.info1{
+    /*height: 500px;*/
+    margin-top: 10px;
+    width: 450px;
+    font-size: 18px;
+    /*background-color: blue;*/
+    font-weight: lighter;
+    font-family: "Roboto Light";
+}
+.subInformation{
+    margin-top: 55px;
+    width: 450px;
+    /*background-color: yellow;*/
+}
+.lightLines{
+    margin-top: 25px;
+    height: 30px;
+    width: 381px;
+    background-color: #B4D2FF;
+}
+.strongLines{
+    height: 30px;
+    width: 320px;
+    background-color: #4965C6;
+}
+
+.subInformation1{
+    margin-top: 10px;
+    width: 450px;
+    /*background-color: yellow;*/
+}
+.lightLines1{
+    margin-top: 20px;
+    height: 30px;
+    width: 381px;
+    background-color: #B4D2FF;
+}
+.strongLines1{
+    height: 30px;
+    width: 290px;
+    background-color: #4965C6;
+}
+
+.subInformation2{
+    margin-top: 10px;
+    width: 450px;
+    /*background-color: yellow;*/
+}
+.lightLines2{
+    margin-top: 20px;
+    height: 30px;
+    width: 381px;
+    background-color: #B4D2FF;
+}
+.strongLines2{
+    height: 30px;
+    width: 255px;
+    background-color: #4965C6;
+}
+
+.info2{
+    margin-top: 10px;
+    width: 450px;
+    font-size: 18px;
+    /*background-color: blue;*/
+    font-weight: lighter;
+    font-family: "Roboto Light";
+}
+
+.fourthContainer{
+    height: 683px;
+    width: 1296px;
+    background-color: #FFFFFF;
+    display: flex;
+    text-align: justify;
+}
+.tools2{
+    margin-top: 60px;
+    font-weight: bold;
+    font-family: Roboto;
+    font-size: 18px;
+}
+.parag2{
+    margin-top: 30px;
+    height: 300px;
+    width: 400px;
+    /*background-color: #bda9ae;*/
+    text-align: left;
+    letter-spacing: 2px;
+    line-height: 30px;
+    color: #444444;
+    font-weight: normal;
+    font-family: Roboto;
+    font-size: 16px;
+}
+.gallery1{
+    height: 450px;
+    width: 380px;
+    /*background-color: green;*/
+}
+.gallery2{
+
+    height: 450px;
+    width: 220px;
+    /*background-color: red;*/
+}
+
+.rect1{
+    width: 350px;
+    height: 165px;
+}
+.rect3{
+    margin-top: 30px;
+    width: 350px;
+    height: 270px;
+}
+.rect2{
+    width: 275px;
+    height: 250px;
+}
+.rect4{
+    margin-top: 30px;
+    width: 275px;
+    height: 185px;
+}
+
+.fifthContainer{
+    height: 450px;
+    width: 1296px;
+    background-color: #F2F5FF;
+    display: flex;
+    flex-direction: column;
+
+}
+.getIntouch{
+    margin-top: 100px;
+    margin-right: 850px;
+    color: #333333;
+    font-weight: bold;
+    font-family: Roboto;
+    font-size: 28px;
+
+}
+.links{
+    display: flex;
+    height: 350px;
+    width: 950px;
+    /*background-color: #c5c5c5;*/
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact1{
+    height: 250px;
+    width: 200px;
+    /*background-color: green;*/
+    text-align: justify;
+}
+.contact2{
+    height: 250px;
+    width: 200px;
+    /*background-color: yellow;*/
+    text-align: justify;
+}
+.contact3{
+    height: 250px;
+    width: 200px;
+    /*background-color: palevioletred;*/
+    text-align: justify;
+}
+p{
+    colour: #444444;
+}
+
+@media (min-width: 375px) and (max-width: 1210px){
+
+    .container {
+        position: relative;
+        /*background-color: #EAEBED;*/
+        height: 900px;
+        width: 375px;
+    }
+
+    .TopRight2, .TopRight3, .TopRight4, .TopRight5 {
+        display: none;
+    }
+    .TopRight1{
+        background-image: url("../images/Group 1.png");
+        height: 24px;
+        width: 24px;
+        text-indent: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        margin-top: 7px;
+        margin-left: -200px;
+        font-size: 20px;
+    }
+    .topLeft{
+        margin-top: 7px;
+        margin-left: 120px;
+    }
+    header{
+        margin-top: 70px;
+        margin-left: 70px;
+        font-size: 20px
+    }
+    .subHeader{
+        margin-top: 115px;
+        margin-left: 30px;
+        font-size: 13px;
+    }
+    .subHeader2{
+        margin-top: 140px;
+        margin-left: -128px;
+        text-decoration: underline;
+        font-size: 13px;
+    }
+    .secondContainer{
+        height: 450px;
+        width: 360px;
+        /*background-color: red;*/
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header3{
+        margin-top: 35px;
+        margin-left: -20px;
+        color: #333333;
+        font-weight: bold;
+        font-family: Roboto;
+        font-size: 18px;
+    }
+    .parag{
+        margin-top: 27px;
+        margin-left: 20px;
+        height: 300px;
+        width: 80%;
+        /*background-color: #bda9ae;*/
+        text-align: left;
+        line-height: 20px;
+        color: #444444;
+        font-weight: lighter;
+        font-family: "SF Pro";
+        font-size: 14px;
+    }
+    .thirdContainer{
+        height: 700px;
+        width: 360px;
+        margin-top: 10px;
+        background-color: #F2F5FF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+    .skills {
+        height: 500px;
+        width: 360px;
+        margin-top: 10px;
+        margin-left: 1px;
+        color: #333333;
+        font-weight: bold;
+        font-family: "SF Pro";
+        font-size: 18px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /*background-color: yellow;*/
+    }
+    .innerimg{
+        margin-top: 40px;
+        height: 218px;
+        width: 224px;
+    }
+    .profile{
+        height: 500px;
+        width: 53%;
+        /*background-color: #bda9ae;*/
+        margin-top: 100px;
+        margin-left: -145px;
+        color: #333333;
+        font-weight: bold;
+        font-family: "SF Pro";
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+    }
+    .title{
+        margin-top: 15px;
+        height: 500px;
+        width: 100px;
+        /*background-color: red;*/
+    }
+    .subProfile{
+        margin-top: 50px;
+        height: 500px;
+        width: 150px;
+        /*background-color: yellow;*/
+    }
+    .lists{
+        margin-top: 20px;
+        font-weight: bold;
+        font-family: "SF Pro";
+        font-size: 14px;
+    }
+    .tools{
+        margin-top: 10px;
+        font-weight: lighter;
+        font-family: "SF Pro";
+        font-size: 14px;
+    }
+
+    .info1{
+        /*height: 500px;*/
+        padding-bottom: 215px;
+        margin-left: 10px;
+        width: 470px;
+        font-size: 18px;
+        /*background-color: blue;*/
+        font-weight: lighter;
+        font-family: "Roboto Light";
+        font-size: 14px;
+    }
+    .subInformation {
+        margin-bottom: 70px;
+        width: 450px;
+        /*background-color: yellow;*/
+    }
+
+    .lightLines {
+        margin-top: 30px;
+        height: 18px;
+        width: 211px;
+        background-color: #B4D2FF;
+    }
+    .strongLines {
+        height: 18px;
+        width: 135px;
+        background-color: #4965C6;
+    }
+    .info2{
+        margin-top: 10px;
+        width: 450px;
+        font-size: 14px;
+        /*background-color: blue;*/
+        font-weight: normal;
+        font-family: "SF Pro";
+    }
+    .subInformation1 {
+        margin-bottom: 10px;
+        width: 450px;
+        /*background-color: yellow;*/
+    }
+
+    .lightLines1 {
+        margin-top: -45px;
+        height: 18px;
+        width: 211px;
+        background-color: #B4D2FF;
+    }
+    .strongLines1 {
+        height: 18px;
+        width: 135px;
+        background-color: #4965C6;
+    }
+    .subInformation2 {
+        margin-bottom: 10px;
+        width: 450px;
+        /*background-color: yellow;*/
+    }
+
+    .lightLines2 {
+        margin-top: 20px;
+        height: 18px;
+        width: 211px;
+        background-color: #B4D2FF;
+    }
+    .strongLines2 {
+        height: 18px;
+        width: 135px;
+        background-color: #4965C6;
+    }
+    .fourthContainer{
+        margin-top: 30px;
+        height: 683px;
+        width: 360px;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+    }
+    .skills{
+        margin-right: 35px
+     }
+    .tools2{
+        margin-top: 30px;
+        font-weight: normal;
+        font-family: "SF Pro";
+        font-size: 18px;
+    }
+    .parag2{
+        margin-top: 20px;
+        margin-left: 20px;
+        height: 100px;
+        width: 350px;
+        /*background-color: #bda9ae;*/
+        text-align: center;
+        letter-spacing: 0;
+        line-height: 20px;
+        color: #444444;
+        font-weight: lighter;
+        font-family: SF "SF Pro";
+        font-size: 14px;
+    }
+    .profile2{
+        height: 500px;
+        width: 370px;
+        /*background-color: #bda9ae;*/
+        margin-top: -350px;
+        margin-left: -10px;
+        color: #333333;
+        font-weight: bold;
+        font-family: Roboto;
+        font-size: 28px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+    .gallery1{
+        height: 350px;
+        width: 450px;
+        /*background-color: green;*/
+    }
+    .gallery2{
+        height: 350px;
+        width: 300px;
+        /*background-color: red;*/
+    }
+
+    .rect1{
+        width: 195px;
+        height: 110px;
+    }
+    .rect3{
+        margin-top: 10px;
+        width: 195px;
+        height: 169px;
+    }
+    .rect2{
+        width: 150px;
+        height: 175px;
+    }
+    .rect4{
+        margin-top: 10px;
+        width: 150px;
+        height: 105px;
+    }
+    .fifthContainer{
+        margin-top: -100px;
+        height: 300px;
+        width: 370px;
+        background-color: #F2F5FF;
+    }
+    .getIntouch{
+        margin-top: 30px;
+        margin-left: 100px;
+        width: 150px;
+        color: #333333;
+        font-weight: bold;
+        font-family: SF "SF Pro";
+        font-size: 18px;
+
+    }
+    .links{
+        display: flex;
+        height: 360px;
+        width: 330px;
+        /*background-color: #c5c5c5;*/
+        margin-left: 15px;
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    p{
+        font-size: 12px;
+    }
+
+}
+
+
+
